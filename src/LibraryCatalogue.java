@@ -125,8 +125,8 @@ public class LibraryCatalogue {
 
     public void BookAlreadyCheckOut(Books Book) {
         System.out.println(
-                "Sorry" + Book.getTitle() + " is already checkout ." + " It should be back on day " +
-                        (Book.getDayCheckedOut() + getLenghtOfCheckOutPeriod() + ". ")
+                "Sorry" + Book.getTitle() + " is already checkout." + " It should be back on day " +
+                        (Book.getDayCheckedOut() + getLenghtOfCheckOutPeriod() + ".")
         );
     }
 }
